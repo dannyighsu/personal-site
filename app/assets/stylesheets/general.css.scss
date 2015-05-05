@@ -1,0 +1,11 @@
+html {
+    background: url(image_path('background.jpg')) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+}
