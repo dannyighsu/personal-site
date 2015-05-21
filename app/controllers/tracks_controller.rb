@@ -1,6 +1,6 @@
 class TracksController < ApplicationController
 
-  def music
+  def show
     @tracks = Track.all
     logger.info(@tracks)
   end

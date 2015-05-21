@@ -1,6 +1,6 @@
 class MediaController < ApplicationController
 
-  def videos
+  def show
     @videos = Video.all
   end
 
