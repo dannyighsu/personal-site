@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'devise'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
@@ -31,7 +32,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 group :production do
     # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-    gem 'spring',        group: :development
+    gem 'spring'
     gem 'rails_12factor'
     gem 'pg', '0.15.1'
 end

@@ -1,0 +1,5 @@
+<div class='center hero-unit'>
+  <% @tracks.each do |track| %>
+    <%= render track, trackURL: track.url %>
+  <% end %>
+</div>
