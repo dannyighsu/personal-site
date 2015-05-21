@@ -1,3 +1,5 @@
-<% repos.each do |repo| %>
-    <%= render repo %>
-<% end %>
+<div class='center hero-unit'>
+  <% @repos.each do |repo| %>
+    <%= render 'project', repo: repo %>
+  <% end %>
+</div>
