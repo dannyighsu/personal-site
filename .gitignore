@@ -15,4 +15,7 @@
 /log/*.log
 /tmp
 
+secrets.yml
+database.yml
+
 .DS_Store

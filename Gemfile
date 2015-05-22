@@ -4,6 +4,7 @@ gem 'bootstrap-sass', '2.3.2.0'
 gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'devise'
 gem 'github_api', github: 'peter-murach/github'
+gem 'dropbox-sdk'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
