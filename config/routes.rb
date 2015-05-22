@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   root 'index#index'
 
   get 'music' => 'tracks#show'
-  get 'writing' => 'writing#show'
+  get 'writing' => 'writings#show'
   get 'projects' => 'projects#show'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

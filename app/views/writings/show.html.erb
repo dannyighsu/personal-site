@@ -1,0 +1,7 @@
+<div class='center hero-unit'>
+
+  <% @writing.each do |w| %>
+    <%= render w, title: w.title, url: w.url, description: w.description %>
+  <% end %>
+
+</div>
