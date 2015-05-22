@@ -2,7 +2,7 @@
 <div class='center hero-unit'>
 
   <% @writing.each do |w| %>
-    <%= render w, title: w.title, url: w.url, description: w.description %>
+    <%= render w, title: w.title, url: w.url, description: w.description, id: w.id %>
   <% end %>
 
 </div>
