@@ -1,8 +1,7 @@
 class TracksController < ApplicationController
 
   def show
-    @tracks = Track.all
-    logger.info(@tracks)
+    @tracks = Track.all.reverse
   end
 
 end
