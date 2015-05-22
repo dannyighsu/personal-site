@@ -20,6 +20,6 @@ module PersonalSite
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
     Rails.application.config.assets.precompile += %w(*.svg *.eot *.woff *.ttf *.gif *.png *.ico)
-Rails.application.config.assets.precompile << /\A(?!active_admin).*\.(js|css)\z/
+Rails.application.config.assets.precompile << /\A(?!active_admin)(?!bootstrap).*\.(js|css)\z/
   end
 end

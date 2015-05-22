@@ -1,3 +1,4 @@
+<% provide(:title, 'Music') %>
 <div class='center hero-unit'>
   <% @tracks.each do |track| %>
     <%= render track, trackURL: track.url %>
