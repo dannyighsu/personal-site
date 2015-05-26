@@ -1,6 +1,7 @@
 <% provide(:title, 'Writing') %>
 <div class='center hero-unit'>
 
+  <h4>Select a Title</h4>
   <% @writing.each do |w| %>
     <%= render w, title: w.title, url: w.url, description: w.description, id: w.id %>
   <% end %>
