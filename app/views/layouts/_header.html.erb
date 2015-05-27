@@ -1,4 +1,4 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
+<!-- <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="navbar-inner">
     <div class="container">
       <nav>
@@ -13,4 +13,15 @@
       </nav>
     </div>
   </div>
-</header>
+</header> -->
+
+<div id="header">
+  <nav class="nav">
+    <ul id="nav-items">
+      <li id='home'><%= link_to "Home", root_path %></li>
+      <li id='projects'><%= link_to "Projects", projects_path %></li>
+      <li id='music'><%= link_to "Music", music_path %></li>
+      <li id='writing'><%= link_to "Writing", writing_path %></li>
+    </ul>
+  </nav>
+</div>
