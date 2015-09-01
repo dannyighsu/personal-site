@@ -6,4 +6,5 @@ function showDocument(input) {
     } else {
         input.height = 0;
     }
+    return false;
 }

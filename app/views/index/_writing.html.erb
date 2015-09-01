@@ -1,4 +1,4 @@
-<a href="#" onclick="showDocument(<%= id %>)"><%= title.downcase %></a>
-<div><%= description.downcase %></div>
+<a href="#" onclick="showDocument(<%= id %>)"><%= title %></a>
+<div><%= description %></div>
 
 <iframe src=<%= asset_path(url) %> width=150% height=0 style="border: none; margin-left: -25%;" id=<%= id %>></iframe>

@@ -1,0 +1,1 @@
+function showDocument(e){return console.log(e),e=document.getElementById(e),e.height=600!=e.height?600:0,!1}

@@ -6,7 +6,6 @@ button.className += "current";
 </script>
 
 <div class='center hero-unit'>
-  Check out my <%= link_to "GitHub", "https://github.com/dannyighsu" %>
   </br></br>
   <% @repos.each do |repo| %>
     <%= render 'project', repo: repo %>
