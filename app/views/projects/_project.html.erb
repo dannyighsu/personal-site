@@ -1,3 +1,6 @@
 <div id='name'><%= link_to repo["name"].downcase, repo["html_url"], target: "_blank" %></div>
-<div id='description'><%= repo["description"].downcase %></div>
+<div id='description'>
+  <% if repo["description"] != nil %>
+    <%= repo["description"].downcase %></div>
+  <% end %>
 </br>
