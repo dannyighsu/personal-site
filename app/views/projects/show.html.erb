@@ -5,8 +5,6 @@ var button = document.getElementById("projects");
 button.className += "current";
 </script>
 
-<div class='center hero-unit'>
-  <% @repos.each do |repo| %>
-    <%= render 'project', repo: repo %>
-  <% end %>
-</div>
+<% @repos.each do |repo| %>
+  <%= render 'project', repo: repo %>
+<% end %>

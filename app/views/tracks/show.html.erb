@@ -5,8 +5,6 @@ var button = document.getElementById("music");
 button.className += "current";
 </script>
 
-<div class='center hero-unit'>
-  <% @tracks.each do |track| %>
-    <%= render track, trackURL: track.url %></br></br>
-  <% end %>
-</div>
+<% @tracks.each do |track| %>
+  <%= render track, trackURL: track.url %></br></br>
+<% end %>

@@ -5,11 +5,7 @@ var button = document.getElementById("writing");
 button.className += "current";
 </script>
 
-<div class='center hero-unit'>
-
-  <h4>select a title</h4><br>
-  <% @writing.each do |w| %>
-    <%= render w, title: w.title, url: w.url, description: w.description, id: w.id %>
-  <% end %>
-
-</div>
+<h4>select a title</h4><br>
+<% @writing.each do |w| %>
+  <%= render w, title: w.title, url: w.url, description: w.description, id: w.id %>
+<% end %>
